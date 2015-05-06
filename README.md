@@ -17,15 +17,15 @@ java
 
 on your cli, run:
 
-$javac solution.java
+``$javac solution.java``
 
-$java solution
+``$java solution``
 
 
 ruby
 --------
 
-$ruby solution.rb
+``$ruby solution.rb``
 
 c++
 ---------
@@ -37,7 +37,7 @@ c#
 ---------
 on windows cli, run:
 
-$csc solution.cs
+``$csc solution.cs``
 
 you will get a solution.exe. Then, run
 
@@ -46,7 +46,7 @@ $solution
 python
 ---------
 
-$python solution.py
+``$python solution.py``
 
 Performance of different languages
 ============
