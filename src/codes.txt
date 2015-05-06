@@ -1,6 +1,0 @@
-id,ques_id,ques_name,code,lang,comment
-
-
-
-
-21,14,"Longest Collatz sequence","",php,"."
