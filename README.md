@@ -12,21 +12,6 @@ To make programming with mathematics less boring, I tried to utilize different p
 How to run
 ===============
 
-java
-------
-
-on your cli, run:
-
-``$javac solution.java``
-
-``$java solution``
-
-
-ruby
---------
-
-``$ruby solution.rb``
-
 c++
 ---------
 
@@ -41,7 +26,32 @@ on windows cli, run:
 
 you will get a solution.exe. Then, run
 
-$solution
+``$solution``
+
+php
+-----------
+
+on your cli, run:
+
+``$php solution.php``
+
+
+java
+------
+
+
+
+``$javac solution.java``
+
+``$java solution``
+
+
+ruby
+--------
+
+``$ruby solution.rb``
+
+
 
 python
 ---------
@@ -53,7 +63,7 @@ Performance of different languages
 
 Try to solve the same mathematical problems in different programming languages, you can see the differences of execution are enormous. 
 
-For example, it became obvious to me that some languages specializing in web development, such as php, ruby, are slow in executing CPU and memory intensive programs. Sometimes, it is simply not possible to get a result in a reasonable time scope. 
+For example, it became obvious to me that some languages specializing in web development, such as php, ruby, are slower in executing CPU and memory intensive programs, than other more general-purpose languages (c++,c#, python,java). Sometimes, it is simply not possible to get a result in a reasonable time scope. 
 
 
 
