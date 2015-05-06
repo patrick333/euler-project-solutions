@@ -23,6 +23,11 @@ ruby
 
 $ruby solution.rb
 
+c++
+---------
+
+http://stackoverflow.com/questions/221185/how-to-run-c-c-in-a-unix-console-mac-terminal
+
 
 c#
 ---------
@@ -35,6 +40,13 @@ python
 ---------
 
 $python solution.py
+
+Comparision of languages
+============
+
+
+
+
 
 
 
