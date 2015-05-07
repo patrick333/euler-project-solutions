@@ -24,7 +24,8 @@ int _tmain(int argc, _TCHAR* argv[])
 				n[j]=factor;
 		} //for j. 
 	}
-		for(int j=0; j<8; j++){
+	
+	for(int j=0; j<8; j++){
 		printf(""j=%d, base=%d, factor=%d \n"", j, m[j], n[j]);
 	}
 
