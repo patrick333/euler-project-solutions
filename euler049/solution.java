@@ -1,3 +1,4 @@
+
 public static long concatenate(int i, int j, int k) {
 		long result = k;
 		result += (long) j * 10000;
