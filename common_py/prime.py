@@ -11,9 +11,19 @@ def isPrime(d):
 				return False
 		return True
 
+def sieve(limit):
+	nums = range(limit+1)
+	nums[1] = 0
 
+	for n in nums:
+	    if n:
+	        for x in range(2*n, limit+1, n):
+	            nums[x] = 0 # counting this vs. pop
+	# print nums
+	# print filter(None, nums)
+	return set(filter(None, nums))
 
-
+# print sieve(100)
 
 
 
