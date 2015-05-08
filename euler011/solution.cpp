@@ -26,7 +26,7 @@ int _tmain(int argc, _TCHAR* argv[])
 	};
 	unsigned long long product=0;
 	for(int i=0; i<20; i++){
-		for(int j=0; j<16;j++)
+		for(int j=0; j<17;j++)
 		{
 			product=a[i][j]*a[i][j+1]*a[i][j+2]*a[i][j+3];
 			if(product>max){
@@ -36,7 +36,7 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	}
 	printf(""max = %llu \n"", max);
-	for(int i=0; i<16; i++){
+	for(int i=0; i<17; i++){
 		for(int j=0; j<20;j++)
 		{
 			product=a[i][j]*a[i+1][j]*a[i+2][j]*a[i+3][j];
@@ -47,8 +47,8 @@ int _tmain(int argc, _TCHAR* argv[])
 		}
 	}
 	printf(""max = %llu \n"", max);
-	for(int i=0; i<16; i++){
-		for(int j=0; j<16;j++)
+	for(int i=0; i<17; i++){
+		for(int j=0; j<17;j++)
 		{
 			product=a[i][j]*a[i+1][j+1]*a[i+2][j+2]*a[i+3][j+3];
 			if(product>max){
@@ -57,7 +57,7 @@ int _tmain(int argc, _TCHAR* argv[])
 			}
 		}
 	}
-		for(int i=0; i<16; i++){
+		for(int i=0; i<17; i++){
 		for(int j=3; j<20;j++)
 		{
 			product=a[i][j]*a[i+1][j-1]*a[i+2][j-2]*a[i+3][j-3];
